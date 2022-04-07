@@ -107,7 +107,7 @@ export default function Home() {
         <div className='sixroundArrBg'></div>
         <div className='left'>
           <div className='fz-64'>Provide our</div>
-          <div className='fz-64 mt-40'>Best Service</div>
+          <div className='fz-64 mt-40'>best service</div>
           <div className='fz-64 mt-40'>IT solutions</div>
           <div className='mt-31 fz-16'>Bring people together with Gathero.
             It’s easy to join in events you love, gethering palyer and quickly make new friends, build your professional network, or just have some fun.</div>

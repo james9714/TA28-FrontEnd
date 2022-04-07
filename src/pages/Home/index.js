@@ -27,7 +27,7 @@ export default function Home() {
         <div className='isRight'>
           <div>
             <h1 className='fz-48'>Connections with</h1>
-            <h1 className='mt-40 fz-48'>Chinese International</h1>
+            <h1 className='mt-40 fz-48'>Chinese international</h1>
             <h1 className='mt-40 fz-48'>students</h1>
             <div className='mt-40 mt-40Text'>Whatever you're looking for, Gathero can help. Don't worry about you could not finding the Chinese culture activities in Australia. Chinese international student use Gathero to meet new people, make friends, find support, connect with communities in  Chinese cultrue area. .</div>
           </div>
@@ -59,7 +59,7 @@ export default function Home() {
           <div className='isCenter_right_leftItem'>
             <div className='isCenter_right_item bgShadow'>
               <img className='isIcon isNoMt' src={require("../../assets/images/leftone.png")} />
-              <h2 className='mt-32 fz-24'>ExerCises</h2>
+              <h2 className='mt-32 fz-24'>Exercises</h2>
               <div className='mt-30Text fz-16 colorBlack'>Basketball, badminton, table tennis, even if you just wanna someone for a morning jog, you'll find a partner with us.</div>
             </div>
             <div className='isCenter_right_item'>
