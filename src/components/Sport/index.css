@@ -36,7 +36,7 @@
 }
 .isRightFd .greenBox {
   position: absolute;
-  right: -180px;
+  right: -150px;
   top: -10px;
   width: 47px;
   height: 64px;
@@ -70,6 +70,23 @@
   max-height: 296px;
   /* margin-right: 20px; */
 }
+.fm-releway{
+  font-family: 'Raleway';
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+/* Text/Title Text */
+
+color: #333333;
+
+}
+
 .isNOMr {
   margin-right: 0;
 }
@@ -103,8 +120,17 @@
 .gameText {
   margin-top: 38px;
   font-size: 16px;
-  color: #333333;
   font-weight: 700;
+  font-family: 'Roboto';
+font-style: normal;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Text/Title Text */
+
+color: #333333;
 }
 
 .text {

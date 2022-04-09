@@ -19,7 +19,7 @@ export default function Header() {
 
       <div className='isHeader_left'>
         <div className='isLogo'></div>
-        <div className='LoginName'>Gathero</div>
+        <div className='LoginName'>Gathero.</div>
       </div>
       <div className='isHeader_right'>
         <NavLink className={({ isActive }) => { return pathname === '/home' ? 'isActive' : 'isHeader_right_menu' }} to="/home">Home</NavLink>

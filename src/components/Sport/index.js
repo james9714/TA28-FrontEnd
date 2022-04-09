@@ -82,7 +82,7 @@ export default function ViewPhoto() {
         <div className='box'>
           <img className='isImageT' src={require('../../assets/images/mahjong.jpg')} alt="" />
           <div className='gameText'>Card Game</div>
-          <div className='text fz-24'>Mahjong -  3 wait for 1!
+          <div className='text fz-24 fm-releway'>Mahjong -  3 wait for 1!
             URGENT!!!</div>
           <div className='message'>We usually do it on a Saturday afternoon in the CBD and we currently have two ladies and one gentleman.</div>
         </div>
@@ -90,7 +90,7 @@ export default function ViewPhoto() {
         <div className='box'>
           <img className='isImageT' src={require('../../assets/images/tableTennis.jpg')} alt="" />
           <div className='gameText'>Sport</div>
-          <div className='text fz-24'>Table tennis</div>
+          <div className='text fz-24 fm-releway'>Table tennis</div>
           <div className='message'>I'm a newbie , just have fun!</div>
         </div>
 
@@ -98,7 +98,7 @@ export default function ViewPhoto() {
         <div className='box'>
           <img className='isImageT' src={require('../../assets/images/joker.jpg')} alt="" />
           <div className='gameText'>Card game</div>
-          <div className='text fz-24'>Dou di zhu(3 people game)</div>
+          <div className='text fz-24 fm-releway'>Dou di zhu(3 people game)</div>
           <div className='message'>My roommate and I both want to play Dou di zhu, and we're waiting for another player. We live near Clayton, welcome to play!</div>
         </div>
 

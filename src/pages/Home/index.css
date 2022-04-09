@@ -23,6 +23,16 @@ div {
 .mt-32Text {
   margin-top: 32px;
   color: #666666;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  /* Text/Body Text */
+
+  color: #666666;
 }
 
 .mt-30Text {
@@ -37,28 +47,28 @@ div {
   min-height: 687px;
   max-height: 687px;
   padding-right: 90px;
-
 }
 
 .oneroundArrBg {
   min-width: 118px;
   min-height: 118px;
-  background: url('../../assets/images/roundArrBg.png');
+  background: url("../../assets/images/roundArrBg.png");
   position: absolute;
   background-size: cover;
   bottom: 33px;
   /* left: 685px; */
-  left: 605px;
+  left: 600px;
+  top: 800px;
 }
 
 .tworoundArrBg {
   min-width: 118px;
   min-height: 118px;
-  background: url('../../assets/images/roundArrBg.png');
+  background: url("../../assets/images/roundArrBg.png");
   position: absolute;
   background-size: cover;
   top: 213px;
-  right: -62px;
+  right: 0px;
   /* bottom: 102px;
   left: 685px; */
 }
@@ -66,22 +76,21 @@ div {
 .threeroundArrBg {
   min-width: 118px;
   min-height: 118px;
-  background: url('../../assets/images/roundArrBg.png');
+  background: url("../../assets/images/roundArrBg.png");
   position: absolute;
   background-size: cover;
-  right: -33px;
+  right: 0px;
   top: 334px;
 }
 .fourroundArrBg {
   min-width: 118px;
   min-height: 118px;
-  background: url('../../assets/images/roundArrBg.png');
+  background: url("../../assets/images/roundArrBg.png");
   position: absolute;
   background-size: cover;
   right: 90px;
   bottom: -63px;
 }
-
 
 .isImg {
   min-width: 640px;
@@ -107,6 +116,28 @@ div {
 
 .mt-40Text {
   line-height: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  /* Text/Body Text */
+
+  color: #666666;
+}
+.banner-font {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 86px;
+  /* or 134% */
+
+  /* Text/Title Text */
+
+  color: #333333;
 }
 .fz-16 {
   font-size: 16px;
@@ -114,8 +145,23 @@ div {
 .colorBlack {
   color: #333333 !important;
 }
+.lh150 {
+  line-height: 150%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  /* Text/Body Text */
+
+  color: #666666;
+}
 .fz-24 {
+  font-weight: 700;
   font-size: 24px;
+  line-height: 32px;
 }
 
 .isRight .isRight_btn {
@@ -134,7 +180,7 @@ div {
   height: 64px;
   background-color: rgb(67, 204, 116);
   position: absolute;
-  right: -180px;
+  right: 0px;
   bottom: -40px;
 }
 
@@ -149,8 +195,8 @@ div {
   /* height: 800px; */
 }
 .bgShadow {
-  background: #FFFFFF;
-box-shadow: 0px 25px 55px rgba(126, 126, 126, 0.15);
+  background: #ffffff;
+  box-shadow: 0px 25px 55px rgba(126, 126, 126, 0.15);
 }
 
 .isCenter_left {
@@ -171,7 +217,7 @@ box-shadow: 0px 25px 55px rgba(126, 126, 126, 0.15);
 }
 
 .isCenter_right {
-  margin-left: 220px;
+  margin-left: 70px;
   min-width: 413px;
   display: flex;
   max-width: 40%;
@@ -202,6 +248,10 @@ box-shadow: 0px 25px 55px rgba(126, 126, 126, 0.15);
   /* background-color: red; */
   margin-top: -44px;
 }
+.fm-releway {
+  font-family: 'Raleway';
+  font-style: normal;
+}
 
 .isBgWhite {
   background-color: white;
@@ -214,16 +264,16 @@ box-shadow: 0px 25px 55px rgba(126, 126, 126, 0.15);
   margin-top: 272px;
   /* height: 400px; */
   background-color: rgb(57, 154, 137);
-  padding-bottom: 29px;  
+  padding-bottom: 29px;
   position: relative;
-  justify-content:space-between;
+  justify-content: space-between;
   padding-right: 216px;
 }
 .isCreate {
   padding-left: 141px;
 }
 .isCreateTip {
-  margin-left: -100px
+  margin-left: -100px;
 }
 .isLoginAfterFaceBox {
   /* margin-left: -100px */
@@ -252,16 +302,29 @@ box-shadow: 0px 25px 55px rgba(126, 126, 126, 0.15);
 .isLogin-left .isTitle {
   font-size: 48px;
   color: white;
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+/* identical to box height, or 133% */
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+/* Text/White */
+
+color: #FFFFFF;
 }
 .fz-48 {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-style: normal;
-  font-size: 48px;
-  line-height: 48px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 86px;
 }
 
 .fz-64 {
-  font-family:'Raleway';
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
@@ -283,6 +346,18 @@ box-shadow: 0px 25px 55px rgba(126, 126, 126, 0.15);
 }
 .isLogin-right .isIptSize {
   font-size: 16px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+/* Text/White */
+
+color: #FFFFFF;
+
 }
 
 /* 登陆后的 */
@@ -290,7 +365,6 @@ box-shadow: 0px 25px 55px rgba(126, 126, 126, 0.15);
   color: white;
   margin-top: 95px;
   padding-bottom: 118px;
-  
 }
 
 .isNameT .isLoginBtn {
@@ -353,7 +427,6 @@ box-shadow: 0px 25px 55px rgba(126, 126, 126, 0.15);
   color: white;
   /* margin-left: 160px; */
   margin-left: 400px;
-  
 }
 
 .loginFotter .isLoginBtnT {
@@ -382,7 +455,18 @@ box-shadow: 0px 25px 55px rgba(126, 126, 126, 0.15);
   font-size: 48px;
   font-weight: 700px;
   margin-top: 47px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
 
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* Text/Title Text */
+
+  color: #333333;
 }
 
 .isWaiting .left .tip {
@@ -396,7 +480,6 @@ box-shadow: 0px 25px 55px rgba(126, 126, 126, 0.15);
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-
 }
 
 .isWaiting .right .isBtn {
@@ -411,7 +494,6 @@ box-shadow: 0px 25px 55px rgba(126, 126, 126, 0.15);
   text-align: center;
   cursor: pointer;
   font-size: 20px;
-
 }
 
 .isActiveT {

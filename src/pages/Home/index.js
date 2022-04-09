@@ -20,23 +20,25 @@ export default function Home() {
       {/* 头部 */}
       {/* <Header /> */}
       {/* 内容 */}
+   
       <div className='isMain'>
       <div className='oneroundArrBg'></div>
       <div className='tworoundArrBg'></div>
         <div className='isImg'></div>
         <div className='isRight'>
-          <div>
-            <h1 className='fz-48'>Connections with</h1>
+          <div className='banner-font'>
+            <h1 className='fz-48 banner-font'>Connections with</h1>
             <h1 className='mt-40 fz-48'>Chinese international</h1>
             <h1 className='mt-40 fz-48'>students</h1>
-            <div className='mt-40 mt-40Text'>Whatever you're looking for, Gathero can help. Don't worry about you could not finding the Chinese culture activities in Australia. Chinese international student use Gathero to meet new people, make friends, find support, connect with communities in  Chinese cultrue area. .</div>
+            <div className='mt-40 mt-40Text'>New to Australia from China to study? Hard to meet people and make friends? International students use Gathero to meet new people, make friends, find support, and connect with Chinese communities.</div>
           </div>
 
-          <div className='isRight_btn'>Start your journy</div>
+          <div className='isRight_btn' onClick={goActivites}>Start your journy</div>
           <div className='isGreenBox'></div>
         </div>
         <div className='isOneRoundArr'></div>
       </div>
+    
       {/* 中间部分 */}
       <div className='isCenter'>
       <div className='threeroundArrBg'></div>
@@ -57,28 +59,28 @@ export default function Home() {
         <div className='isCenter_right'>
           {/* 右侧的左侧部分 */}
           <div className='isCenter_right_leftItem'>
-            <div className='isCenter_right_item bgShadow'>
+            <div className='isCenter_right_item bgShadow '>
               <img className='isIcon isNoMt' src={require("../../assets/images/leftone.png")} />
-              <h2 className='mt-32 fz-24'>Exercises</h2>
-              <div className='mt-30Text fz-16 colorBlack'>Basketball, badminton, table tennis, even if you just wanna someone for a morning jog, you'll find a partner with us.</div>
+              <h2 className='mt-32 fz-24 fm-releway'>Exercises</h2>
+              <div className='mt-30Text fz-16 colorBlack lh150'>Basketball, badminton, table tennis, even if you just wanna someone for a morning jog, you'll find a partner with us.</div>
             </div>
             <div className='isCenter_right_item'>
               <img className='isIcon isNoMt' src={require("../../assets/images/lefttwo.png")} />
-              <h2 className='mt-32 fz-24'>Parties</h2>
-              <div className='mt-30Text fz-16 colorBlack'>Inviting someone to a gourmet dinner, petting others cat or dog? Or have a birthday party! Get involved now.</div>
+              <h2 className='mt-32 fz-24 fm-releway'>Parties</h2>
+              <div className='mt-30Text fz-16 colorBlack lh150'>Inviting someone to a gourmet dinner, petting others cat or dog? Or have a birthday party! Get involved now.</div>
             </div>
           </div>
           {/* 中间的右侧的右侧部分 */}
           <div className='isCenter_right_rightItem '>
             <div className='isCenter_right_item isCenter_right_itemR'>
               <img className='isIcon isNoMt' src={require("../../assets/images/rightone.png")} />
-              <h2 className='mt-32 fz-24'>Board Games</h2>
-              <div className='mt-30Text fz-16 colorBlack'>Wanna play Mahjong but always missing one person, wanna play Mystery murder game but always not enough players? Why don't you try calling it on our platform?</div>
+              <h2 className='mt-32 fz-24 fm-releway'>Board Games</h2>
+              <div className='mt-30Text fz-16 colorBlack lh150'>Wanna play Mahjong but always missing one person, wanna play Mystery murder game but always not enough players? Why don't you try calling it on our platform?</div>
             </div>
             <div className='isCenter_right_item'>
               <img className='isIcon isNoMt' src={require("../../assets/images/righttwo.png")} />
-              <h2 className='mt-32 fz-24 colorBlack'>More...</h2>
-              <div className='mt-30Text fz-16 colorBlack'>Anything is possible as long as you need someone to be with you.</div>
+              <h2 className='mt-32 fz-24 colorBlack fm-releway'>More...</h2>
+              <div className='mt-30Text fz-16 colorBlack lh150'>Anything is possible as long as you need someone to be with you.</div>
             </div>
           </div>
 

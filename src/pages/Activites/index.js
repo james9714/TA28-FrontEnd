@@ -118,7 +118,7 @@ export default function Home() {
       {/* 搜索区域 */}
       <div className='isSearch'>
         <div className='tip'>Searching activities</div>
-        <div className='title fz-48T'>Find out what you want</div>
+        <div className='title fz-48T'>Find events near you</div>
         <div className='isIpt'>
           <input className='ipt' type="text" placeholder='search' />
           <div className='btn'></div>
