@@ -16,7 +16,20 @@
 }
 .fz-48T {
   margin-top: 54px;
+  /* Headings Bold/48px */
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
   font-size: 48px;
+  line-height: 64px;
+  /* or 133% */
+
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+  /* Text/Title Text */
+
   color: #333333;
 }
 
