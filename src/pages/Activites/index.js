@@ -106,9 +106,7 @@ export default function Home() {
         <div className='fiveroundArrBg'></div>
         <div className='sixroundArrBg'></div>
         <div className='left'>
-          <div className='fz-64'>Provide our</div>
-          <div className='fz-64 mt-40'>best service</div>
-          <div className='fz-64 mt-40'>IT solutions</div>
+          <div className='fz-64 mt-40'>Explore cheerful and fascinating social events</div>
           <div className='mt-31 fz-16'>Bring people together with Gathero.
             It’s easy to join in events you love, gethering palyer and quickly make new friends, build your professional network, or just have some fun.</div>
         </div>
@@ -200,8 +198,7 @@ export default function Home() {
               <div className='haveChildren'>
                 <div className='father'>
                   <div className='mt-44AndRound isMt-21'>
-                    <div>game</div>
-                    <div className='isRound isGard'></div>
+                    <div>Game</div>
                   </div>
                 </div>
                 <div className='son'>

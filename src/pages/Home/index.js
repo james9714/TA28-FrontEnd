@@ -168,7 +168,7 @@ export default function Home() {
       {/* activities on going 部分*/}
       <div className='isWaiting'>
         <div className="left">
-          <div className='title'>ACTIBITIES ON GOING</div>
+          <div className='title'>ACTIVITIES ON GOING</div>
           <div className='isWaitingText'>Waiting for you to join</div>
           <div className='tip'>Find your favorite activities, come out and join us! You can also be an organizer and initiate the event you want!</div>
         </div>

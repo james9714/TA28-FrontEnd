@@ -128,9 +128,9 @@ div {
   color: #666666;
 }
 .banner-font {
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 64px;
   line-height: 86px;
   /* or 134% */
@@ -437,7 +437,7 @@ color: #FFFFFF;
 
 .isWaiting {
   height: 385px;
-  margin-top: 175px;
+  margin-top: 100px;
   display: flex;
   box-sizing: border-box;
 }
@@ -447,22 +447,29 @@ color: #FFFFFF;
 }
 
 .isWaiting .left .title {
-  font-size: 14px;
-  color: #b2b2b2;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: 0.1em;
+
+  /* Text/Body Text */
+
+  color: #666666; 
 }
 
 .isWaiting .left .isWaitingText {
-  font-size: 48px;
-  font-weight: 700px;
-  margin-top: 47px;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 64px;
   /* identical to box height, or 133% */
 
-  font-feature-settings: "pnum" on, "lnum" on;
+  font-feature-settings: 'pnum' on, 'lnum' on;
 
   /* Text/Title Text */
 
@@ -470,9 +477,17 @@ color: #FFFFFF;
 }
 
 .isWaiting .left .tip {
-  margin-top: 44px;
-  font-size: 14px;
-  color: #707070;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+
+/* Text/Body Text */
+
+  color: #666666;
 }
 
 .isWaiting .right {
